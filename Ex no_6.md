@@ -1,36 +1,34 @@
-# EX 6 C Program to print the string "PLACEMENT" n number of times.
+# EX 6 C Program to print the string "KEYBOARD" n number of times.
+## DATE:17-03-2026
 ## AIM:
-To write a C Program to print the string "PLACEMENT" n number of times.
+To write a C Program to print the string "KEYBOARD" n number of times.
 
-## Algorithm
-1. Read the number 'n' from the user.
-2. Repeat a loop from 1 to n.
-3. In each iteration, print "PLACEMENT".
-4. End the program.
-  
+## Algorithm:
+1. Start. 
+2. Declare the variables i,n. 
+3. Prompt the user to enter a value. 
+4. Read the value using scanf. 
+5. Run the for loop for “i” variable. 
+6. Print “KEYBOARD\n”. 
+7. End.    
 
 ## Program:
-```
-/*
-Program to print the string "PLACEMENT" n number of times.
-Developed by: Sai Ranjani K
-RegisterNumber:  212222060210
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    
-    for(int i=0;i<n;i++){
-        printf("PLACEMENT\n");
-    }
-    return 0;
+```c program
+#include<stdio.h> 
+int main() 
+{ 
+int i,n; 
+scanf("%d",&n); 
+for(i=1;i<=n;i++) {
+printf("KEYBOARD\n"); 
 }
-*/
+return 0; 
+} 
 ```
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/be131ace-a584-4b60-9d98-c48e561d5bf4)
+![image](https://github.com/user-attachments/assets/f0b9e4ab-95fd-44c7-9166-f6d6dd5b6f02)
 
 
 ## Result:
