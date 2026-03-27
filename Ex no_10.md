@@ -19,7 +19,7 @@ To write a C program to find the factorial of a given number using a function wi
 ## Program:
 ```c program
 #include <stdio.h>
-int factorial(int n) {
+int factorial(int n) { 
     int fact = 1;
     for (int i = 1; i <= n; ++i) {
         fact *= i;
