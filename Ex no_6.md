@@ -20,7 +20,7 @@ int main()
 int i,n; 
 scanf("%d",&n); 
 for(i=1;i<=n;i++) {
-printf("KEYBOARD\n"); 
+printf("KEYBOARD\n");  
 }
 return 0; 
 } 
